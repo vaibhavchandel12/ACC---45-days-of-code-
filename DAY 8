@@ -1,0 +1,52 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int t;
+	cin>>t;
+	for(int i =1;i<=t;i++)
+	{
+	    int x,y;
+	    cin>>x>>y;
+	    int t;
+	    t=x/(2*y);
+	    cout<<t<<endl;
+	}
+	return 0;
+}
+////////////////////////////////CODE2///
+#include <iostream>
+using namespace std;
+
+int main() {
+	int t;
+	cin>>t;
+	for(int i=1;i<=t;i++)
+	{
+	    int n,a;
+	    cin>>n>>a;
+	    int t=0;
+	    for(int j=1;j<=n;j++)
+	    {
+	        int w,h,p;
+	        cin>>w>>h>>p;
+	    
+	     if(p<=a)
+	        {
+	            if(t<w*h){
+	           t=w*h;}
+	            
+	        }
+	    }
+	    if(t==0)
+	    {
+	        cout<<"no tablet"<<endl;
+	        
+	    }
+	    else
+	    {
+	        cout<<t<<endl;
+	    }
+	  	}
+	return 0;
+}
