@@ -1,0 +1,48 @@
+//////////CODE 1/
+#include <iostream>
+using namespace std;
+
+int main() {
+	int t;
+	cin>>t;
+	for(int i=1;i<=t;i++)
+	{
+	    int x,y;
+	    cin>>x>>y;
+	    cout<<x/y<<endl;
+	}
+	return 0;
+}
+//////////////////////CODE 2///////////
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	
+	for(int i=1;i<=t;i++)
+	{
+	    int A,B,C,E;
+	    int D=15;
+	    cin>>A>>B>>C>>D>>E;
+	    
+	    if(A+B <=15 && C<=E )
+	    {
+	        cout<<"YES"<<endl;
+	    }
+	    else if(A+C<=15 && B<=E)
+	    {
+	        cout<<"YES"<<endl;
+	    }
+	    else if(B+C<=15 && A<=E)
+	    {
+	        cout<<"YES"<<endl;
+	    }
+	    else {
+	        cout<<"NO"<<endl;
+	    }
+	}
+	return 0;
+}
