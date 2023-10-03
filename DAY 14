@@ -1,0 +1,23 @@
+//////////////////CODE2/////////////////////
+#include <iostream>
+using namespace std;
+
+int main() {
+	int t;
+	cin>>t;
+	while(t--)
+	{
+	    int m,n;
+	    cin>>n>>m;
+	    int t=n/m;
+	    if(t%2==0 and n%m==0)
+	    {
+	        cout<<"yes"<<endl;
+	    }
+	    else
+	    {
+	        cout<<"no"<<endl;
+	    }
+	}
+	return 0;
+}
