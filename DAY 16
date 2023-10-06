@@ -1,0 +1,29 @@
+///////////CODE1//////////////////
+include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	int t;
+	cin>>t;
+	while(t--)
+	{
+	    int pa,pb,qa,qb;
+	    cin>>pa>>pb>>qa>>qb;
+	    int max1=max(pa,pb);
+	    int max2=max(qa,qb);
+	    if(max1 > max2)
+	    {
+	        cout<<"q"<<endl;
+	    }
+	    else if(max1==max2)
+	    {
+	        cout<<"tie"<<endl;
+	    }
+	    else
+	    {
+	        cout<<"p"<<endl;
+	    }
+	     
+	}
+	return 0;
+}
